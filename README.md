@@ -1,4 +1,6 @@
-hello-world
-===========
+Hello, World
+============
 
-Hello, World. Traditional first project.
+Traditional first project.
+
+
