@@ -2,13 +2,13 @@ classdef tHelloWorld < matlab.unittest.TestCase
     methods(Test)
         function saysHelloWorld( test )
             hello = HelloWorld();
-            text = iGetDisplayText( hello );
-            test.verifyThat( text, iContainsSubstring( 'Hello, World!' ) );
+            test.verifyThat( iDisplayOf( hello ), ...
+                iContainsSubstring( 'Hello, World!' ) );
         end
     end
 end
 
-function text = iGetDisplayText( object ) %#ok<INUSD>
+function text = iDisplayOf( object ) %#ok<INUSD>
 text = evalc( 'object' );
 end
 
