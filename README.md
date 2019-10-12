@@ -7,3 +7,6 @@ Man with Sleeve -- it's an ace painting by Titian. It hangs in the National Gall
 
 Man with Sleeve is nothing to do with tattoos, despite what Pinterest might say.
 
+fin
+
+
